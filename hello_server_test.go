@@ -18,7 +18,7 @@ func TestGreetingSpecificDemo(t *testing.T) {
 
 func TestShowFailure(t *testing.T) {
 	greeting := CreateGreeting("Demo1")
-	if greeting != "Hello, Demo\n" {
+	if greeting != "Hello, Demo1\n" {
 		t.Errorf("Intentional failure. got: %s, want: %s.", greeting, "Hello, Demo\n")
 	}
 }
